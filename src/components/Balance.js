@@ -4,9 +4,9 @@ import { VStack, Box, Heading } from '@chakra-ui/react';
 function Balance () {
   return (
     <>
-      <VStack spacing='16px'>
+      <VStack>
         <Box>
-          <Heading fontSize='12' color='black' textAlign='left' margin='auto'>
+          <Heading fontSize='12' color='black' >
             YOUR BALANCE
           </Heading>
           <Heading fontSize='20' id='balance' color='black'>

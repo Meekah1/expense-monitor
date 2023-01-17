@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Balance from './components/Balance';
+import Expense from './components/Expense';
 import './App.css';
 import { VStack, Box } from '@chakra-ui/react';
 
@@ -13,6 +14,7 @@ function App() {
         <Box>
           <Balance />
         </Box>
+        <Expense />
       </VStack>
     </div>
   );
